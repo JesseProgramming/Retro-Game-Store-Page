@@ -28,8 +28,11 @@ body{
     width: 200px;
     padding: 20px;
     border: 1px solid lightgray;
+    transition: background-color 0.25s ease;
+    height: 300px;
 }
 .product-card:hover{
+    background-color: rgb(201, 216, 238);
     cursor: pointer;
 }
 .product-price{
@@ -40,10 +43,13 @@ body{
     font-size: 1.3em;
 }
 .product-name{
-    font-weight: 700;
+    font-weight: 600;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.4em;
-    margin-bottom: 10px;
+    font-size: 1.2em;
+    width: 200px;
+    color: rgb(25, 88, 204);
+    margin-top: 7px;
+    height: 55px;
 }
 .product-company{
     color: gray;

@@ -8,10 +8,10 @@ function RenderProducts(){
     for(let i = 0; i < productData.products.length; i++){
         returnData.push(
             <div className = "product-card">
+                <img className="product-image" src={productData.products[i].images}></img>
                 <h3 className = "product-name" key={productData.products[i].name}>
                     {productData.products[i].name}
                 </h3>
-                <img className="product-image" src={productData.products[i].images}></img>
                 <p className = "product-system" key={productData.products[i].system}>
                     {productData.products[i].system}
                 </p>
