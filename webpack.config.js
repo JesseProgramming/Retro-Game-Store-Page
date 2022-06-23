@@ -8,6 +8,7 @@ module.exports = {
         filename: 'index.bundle.js'
     },
     module: {
+        exprContextCritical: false,
         rules: [
             {
                 test: /\.js$/,
@@ -70,4 +71,5 @@ module.exports = {
             //favicon: "./src/favicon.ico",
         })
     ]
+    
 }

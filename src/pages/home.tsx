@@ -1,18 +1,27 @@
 import React from 'react';
 import '../styles/home.scss';
-const json = require('../data/products.json');
-console.log( ('%c' +  json.products[0].name) , 'background: #222; color: cyan');
+const productData = require('../data/products.js');
+//var test = require("../images");
+
+
+
 
 function RenderProducts(){
     let returnData = [];
-    for(let i = 0; i < json.products.length; i++){
+    for(let i = 0; i < productData.products.length; i++){
+        let img = productData.products[i].images;
+        let img2 = '../images/PokemonEmerald.jpg';
+        console.log(img);
         returnData.push(
-            <p key={json.products[i].name}>
-                {json.products[i].name}
+            <div>
+            <p key={productData.products[i].name}>
+                {productData.products[i].name + " --- " + productData.products[i].price}
             </p>
+            <img className="product-image" src={productData.products[i].images}></img>
+            </div>
         );
     }
-    return returnData;
+    return <> {returnData} </>;
 }
 
 
