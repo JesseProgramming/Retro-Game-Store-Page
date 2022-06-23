@@ -2,7 +2,7 @@ export const products = [
     {
         "name" : "Pokemon Emerald",
         "description" : "Pokémon Emerald Version is a 2004 role-playing video game developed by Game Freak, published by The Pokémon Company and Nintendo for the Game Boy Advance. It was first released in Japan in 2004, and was later released internationally in 2005.",
-        "price" : "99.99",
+        "price" : "100",
         "company" : "Nintendo",
         "system" : "Game Boy Advance",
         "images": require('../images/PokemonEmerald.jpg').default
@@ -10,7 +10,7 @@ export const products = [
     {
         "name" : "Pokemon Crystal",
         "description" : "Pokémon Emerald Version is a 2004 role-playing video game developed by Game Freak, published by The Pokémon Company and Nintendo for the Game Boy Advance. It was first released in Japan in 2004, and was later released internationally in 2005.",
-        "price" : "99.99",
+        "price" : "100",
         "company" : "Nintendo",
         "system" : "Game Boy Advance",
         "images": require('../images/PokemonCrystal.jpg').default
@@ -18,7 +18,7 @@ export const products = [
     {
         "name" : "Super Mario Galaxy",
         "description" : "Pokémon Emerald Version is a 2004 role-playing video game developed by Game Freak, published by The Pokémon Company and Nintendo for the Game Boy Advance. It was first released in Japan in 2004, and was later released internationally in 2005.",
-        "price" : "6.99",
+        "price" : "7",
         "company" : "Nintendo",
         "system" : "Wii",
         "images": require('../images/SuperMarioGalaxy.jpg').default
@@ -26,7 +26,7 @@ export const products = [
     {
         "name" : "Kirby and the Amazing Mirror",
         "description" : "Pokémon Emerald Version is a 2004 role-playing video game developed by Game Freak, published by The Pokémon Company and Nintendo for the Game Boy Advance. It was first released in Japan in 2004, and was later released internationally in 2005.",
-        "price" : "54.99",
+        "price" : "55",
         "company" : "Nintendo",
         "system" : "Game Boy Advance",
         "images": require('../images/KirbyandtheAmazingMirror.jpg').default
@@ -34,7 +34,7 @@ export const products = [
     {
         "name" : "Super Metroid",
         "description" : "Pokémon Emerald Version is a 2004 role-playing video game developed by Game Freak, published by The Pokémon Company and Nintendo for the Game Boy Advance. It was first released in Japan in 2004, and was later released internationally in 2005.",
-        "price" : "54.99",
+        "price" : "55",
         "company" : "Nintendo",
         "system" : "SNES",
         "images": require('../images/SuperMetroid.jpg').default
@@ -42,7 +42,7 @@ export const products = [
     {
         "name" : "Super Mario World",
         "description" : "Pokémon Emerald Version is a 2004 role-playing video game developed by Game Freak, published by The Pokémon Company and Nintendo for the Game Boy Advance. It was first released in Japan in 2004, and was later released internationally in 2005.",
-        "price" : "14.99",
+        "price" : "15",
         "company" : "Nintendo",
         "system" : "SNES",
         "images": require('../images/SuperMarioWorld.jpg').default
@@ -50,7 +50,7 @@ export const products = [
     {
         "name" : "Super Smash Bros Brawl",
         "description" : "Pokémon Emerald Version is a 2004 role-playing video game developed by Game Freak, published by The Pokémon Company and Nintendo for the Game Boy Advance. It was first released in Japan in 2004, and was later released internationally in 2005.",
-        "price" : "14.99",
+        "price" : "15",
         "company" : "Nintendo",
         "system" : "Wii",
         "images": require('../images/SuperSmashBrosBrawl.jpg').default
@@ -58,7 +58,7 @@ export const products = [
     {
         "name" : "Halo 2",
         "description" : "Pokémon Emerald Version is a 2004 role-playing video game developed by Game Freak, published by The Pokémon Company and Nintendo for the Game Boy Advance. It was first released in Japan in 2004, and was later released internationally in 2005.",
-        "price" : "9.99",
+        "price" : "10",
         "company" : "Bungie Studios",
         "system" : "Xbox",
         "images": require('../images/Halo2.jpg').default
@@ -66,7 +66,7 @@ export const products = [
     {
         "name" : "Little Big Planet",
         "description" : "Pokémon Emerald Version is a 2004 role-playing video game developed by Game Freak, published by The Pokémon Company and Nintendo for the Game Boy Advance. It was first released in Japan in 2004, and was later released internationally in 2005.",
-        "price" : "9.99",
+        "price" : "10",
         "company" : "Sony",
         "system" : "PlayStation",
         "images": require('../images/LittleBigPlanet.jpg').default
@@ -74,7 +74,7 @@ export const products = [
     {
         "name" : "Tony Hawks Pro Skater 3",
         "description" : "Pokémon Emerald Version is a 2004 role-playing video game developed by Game Freak, published by The Pokémon Company and Nintendo for the Game Boy Advance. It was first released in Japan in 2004, and was later released internationally in 2005.",
-        "price" : "9.99",
+        "price" : "10",
         "company" : "Activision",
         "system" : "PlayStation 2",
         "images": require('../images/TonyHawksProSkater3.jpg').default
@@ -82,7 +82,7 @@ export const products = [
     {
         "name" : "Wii Sports Resort",
         "description" : "Pokémon Emerald Version is a 2004 role-playing video game developed by Game Freak, published by The Pokémon Company and Nintendo for the Game Boy Advance. It was first released in Japan in 2004, and was later released internationally in 2005.",
-        "price" : "24.99",
+        "price" : "25",
         "company" : "Nintendo",
         "system" : "Wii",
         "images": require('../images/WiiSportsResort.jpg').default
@@ -90,7 +90,7 @@ export const products = [
     {
         "name" : "Katamari Damacy",
         "description" : "Pokémon Emerald Version is a 2004 role-playing video game developed by Game Freak, published by The Pokémon Company and Nintendo for the Game Boy Advance. It was first released in Japan in 2004, and was later released internationally in 2005.",
-        "price" : "14.99",
+        "price" : "15",
         "company" : "Namco",
         "system" : "Play Station 2",
         "images": require('../images/KatamariDamacy.jpg').default

@@ -1,11 +1,55 @@
-body, html, div{
+*{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(218, 208, 194);
 }
 
 .main-container{
+    .product-card:first-of-type{
+        //margin-top: 10px;
+    }
 }
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+}
+
 .product-image{
     height: 200px;
     width: 200px;
+}
+
+.product-card{
+    background-color: white;
+    width: 200px;
+    padding: 20px;
+    border: 1px solid lightgray;
+}
+.product-card:hover{
+    cursor: pointer;
+}
+.product-price{
+    float: right;
+    margin-top: -25px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3em;
+}
+.product-name{
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+.product-company{
+    color: gray;
+    font-size: 0.8em;
+}
+.product-system{
+    font-weight: bold;
+    font-size: 0.8em;
 }

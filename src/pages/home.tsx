@@ -7,24 +7,24 @@ function RenderProducts(){
     let returnData = [];
     for(let i = 0; i < productData.products.length; i++){
         returnData.push(
-            <div>
-                <h3 key={productData.products[i].name}>
+            <div className = "product-card">
+                <h3 className = "product-name" key={productData.products[i].name}>
                     {productData.products[i].name}
                 </h3>
-                <h4 key={productData.products[i].price}>
-                    {productData.products[i].price}
-                </h4>
-                <p key={productData.products[i].system}>
+                <img className="product-image" src={productData.products[i].images}></img>
+                <p className = "product-system" key={productData.products[i].system}>
                     {productData.products[i].system}
                 </p>
-                <p key={productData.products[i].company}>
+                <p className = "product-company" key={productData.products[i].company}>
                     {productData.products[i].company}
                 </p>
-                <img className="product-image" src={productData.products[i].images}></img>
+                <h4 className = "product-price" key={productData.products[i].price}>
+                    ${productData.products[i].price}
+                </h4>
             </div>
         );
     }
-    return <> {returnData} </>;
+    return <div className="product-container"> {returnData} </div>;
 }
 
 function Home() {
@@ -36,7 +36,6 @@ function Home() {
                     <li>Cart</li>
                     <li>Checkout</li>
                     <a href = "../pages/cart.tsx">cart</a>
-                    <button onClick={() => history.push('../pages/cart.tsx')}>yoo</button>
                     <RenderProducts/>
                 </ul>
 
