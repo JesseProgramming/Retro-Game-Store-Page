@@ -1,29 +1,31 @@
 import React from 'react';
 import '../styles/home.scss';
+import { withRouter } from 'react-router';
 const productData = require('../data/products.js');
-//var test = require("../images");
-
-
-
 
 function RenderProducts(){
     let returnData = [];
     for(let i = 0; i < productData.products.length; i++){
-        let img = productData.products[i].images;
-        let img2 = '../images/PokemonEmerald.jpg';
-        console.log(img);
         returnData.push(
             <div>
-            <p key={productData.products[i].name}>
-                {productData.products[i].name + " --- " + productData.products[i].price}
-            </p>
-            <img className="product-image" src={productData.products[i].images}></img>
+                <h3 key={productData.products[i].name}>
+                    {productData.products[i].name}
+                </h3>
+                <h4 key={productData.products[i].price}>
+                    {productData.products[i].price}
+                </h4>
+                <p key={productData.products[i].system}>
+                    {productData.products[i].system}
+                </p>
+                <p key={productData.products[i].company}>
+                    {productData.products[i].company}
+                </p>
+                <img className="product-image" src={productData.products[i].images}></img>
             </div>
         );
     }
     return <> {returnData} </>;
 }
-
 
 function Home() {
     return(
@@ -33,6 +35,8 @@ function Home() {
                 <ul>
                     <li>Cart</li>
                     <li>Checkout</li>
+                    <a href = "../pages/cart.tsx">cart</a>
+                    <button onClick={() => history.push('../pages/cart.tsx')}>yoo</button>
                     <RenderProducts/>
                 </ul>
 
@@ -40,6 +44,5 @@ function Home() {
         </div>
     );
 }
-
 
 export default Home;
